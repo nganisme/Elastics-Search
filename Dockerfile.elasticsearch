@@ -2,13 +2,10 @@
 
 # Use an official Elasticsearch image as base
 FROM docker.elastic.co/elasticsearch/elasticsearch:7.10.2
-CMD "echo hello"
 
 # Set environment variables
 ENV discovery.type=single-node
 ENV xpack.security.enabled=false
-
-RUN "echo hello"
 
 # Expose port
 EXPOSE 9200
