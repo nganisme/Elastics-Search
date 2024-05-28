@@ -1,7 +1,7 @@
 # Elasticsearch Dockerfile
 
 # Use an official Elasticsearch image as base
-FROM docker.elastic.co/elasticsearch/elasticsearch:7.10.2
+FROM bitnami/elasticsearch:8.13.4
 
 # Set environment variables
 ENV discovery.type=single-node
