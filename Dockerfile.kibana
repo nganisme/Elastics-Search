@@ -9,3 +9,5 @@ FROM docker.elastic.co/kibana/kibana:7.10.2
 
 # Expose port
 EXPOSE 5601
+
+CMD ["kibana"]
