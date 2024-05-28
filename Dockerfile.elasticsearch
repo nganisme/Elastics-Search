@@ -9,6 +9,3 @@ ENV xpack.security.enabled=false
 
 # Expose port
 EXPOSE 9200
-
-# Volume for Elasticsearch data
-VOLUME /usr/share/elasticsearch/data
