@@ -12,5 +12,7 @@ FROM nginx:alpine
 # Expose port 80 to the host
 EXPOSE 80
 
+RUN "echo Hello"
+
 # Start NGINX server
 CMD ["nginx", "-g", "daemon off;"]
