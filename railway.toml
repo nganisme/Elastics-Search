@@ -1,2 +1,7 @@
 [deploy]
 restartPolicyType = "always"
+
+[env]
+# Define environment variables to set resource allocation
+CPU_LIMIT = 2
+MEMORY_LIMIT = "4GB"
