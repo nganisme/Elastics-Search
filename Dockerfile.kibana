@@ -4,7 +4,7 @@
 FROM docker.elastic.co/kibana/kibana:7.10.2
 
 # Set environment variable for Elasticsearch URL
-ENV ELASTICSEARCH_URL=$ELASTICSEARCH_DOMAIN
+ENV ELASTICSEARCH_URL=$ELASTICS_SEARCH_DOMAIN
 
 # Expose port
 EXPOSE 5601
